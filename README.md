@@ -4,9 +4,10 @@
     <img src="assets/t2s_logo_up.png" width="100%">
 </p>
 
-# 🎯 T2S-Bench & Structure-of-Thought
-
-### **Benchmarking Comprehensive Text-to-Structure Reasoning**
+<div align="center">
+  <h1>🎯 T2S-Bench &amp; Structure-of-Thought</h1>
+  <h3><b>Benchmarking Comprehensive Text-to-Structure Reasoning</b></h3>
+</div>
 
 <p align="center">
     🌐 <a href="https://t2s-bench.github.io/T2S-Bench-Page/" target="_blank">Project Page</a> • 📚 <a href="" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/T2SBench" target="_blank">T2S-Bench Dataset</a>
@@ -16,13 +17,17 @@
 </p> 
 
 
+Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of language understanding and reasoning tasks. However, their ability to **explicitly structure information** from complex text—capturing key entities, relations, and higher-order semantic organization—remains poorly understood and insufficiently evaluated.
+
+To bridge this gap, we present **T2S-Bench**, the first benchmark specifically designed to evaluate and improve models' text-to-structure capabilities. T2S-Bench comprises **1.8K high-quality samples** spanning **6 scientific domains**, **17 subfields**, and **32 distinct structural types**, covering a wide spectrum of real-world semantic structures. Solving tasks in T2S-Bench requires models to move beyond fluent text generation and instead perform explicit semantic structuring, which proves challenging for existing models. Using T2S-Bench, we conduct a comprehensive evaluation of **45 mainstream models** across 10 model families. 
+
+
 
 ---
 
 ## Outlines
 
 - [🎯 About T2S-Bench](#about-t2s-bench)
-
 - [📊 Datasets](#datasets)
 - [🚀  Quick Evaluation](#quick-evaluation)
 - [💪 Evaluation via lm-evaluation-harness](#evaluation-via-lm-evaluation-harness)
@@ -31,16 +36,12 @@
 ---
 
 ## About T2S-Bench
+T2S-Bench is a comprehensive benchmark for evaluating models' ability to extract structured representations from scientific text. It includes three curated components: T2S-Train-1.2k for training, T2S-Bench-MR (500 samples) for multi-hop reasoning, and T2S-Bench-E2E (87 samples) for end-to-end structuring. Covering 6 scientific domains, 17 subfields, and 32 structure types, T2S-Bench provides high-quality, structure-grounded samples drawn from peer-reviewed academic papers. Every sample underwent 6K+ model search, 6 rounds of validation, and 3 rounds of human review, ensuring correctness in structure, text, and reasoning logic.
 
-Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of language understanding and reasoning tasks. However, their ability to **explicitly structure information** from complex text—capturing key entities, relations, and higher-order semantic organization—remains poorly understood and insufficiently evaluated.
-
-To bridge this gap, we present **T2S-Bench**, the first benchmark specifically designed to evaluate and improve models' text-to-structure capabilities. T2S-Bench comprises **1.8K high-quality samples** spanning **6 scientific domains**, **17 subfields**, and **32 distinct structural types**, covering a wide spectrum of real-world semantic structures. Solving tasks in T2S-Bench requires models to move beyond fluent text generation and instead perform explicit semantic structuring, which proves challenging for existing models. Using T2S-Bench, we conduct a comprehensive evaluation of **45 mainstream models** across 10 model families. 
 
 <p align="center">
     <img src="assets/T2S_overflow.png" width="100%">
 </p>
-
-
 
 ---
 
