@@ -27,11 +27,11 @@ To bridge this gap, we present **T2S-Bench**, the first benchmark specifically d
 
 ## Outlines
 
-- [🎯 About T2S-Bench](#about-t2s-bench)
-- [📊 Datasets](#datasets)
-- [🚀 Quick Evaluation](#quick-evaluation)
-- [💪 Evaluation via lm-evaluation-harness](#evaluation-via-lm-evaluation-harness)
-- [📄 Citation](#citation)
+- [🎯 About T2S-Bench](#--about-t2s-bench)
+- [📊 Datasets](#-datasets)
+- [🚀 Quick Evaluation](#--quick-evaluation)
+- [💪 Evaluation via lm-evaluation-harness](#--evaluation-via-lm-evaluation-harness)
+- [📄 Citation](#--citation)
 
 ---
 
