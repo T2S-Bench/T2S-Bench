@@ -29,13 +29,13 @@ To bridge this gap, we present **T2S-Bench**, the first benchmark specifically d
 
 - [🎯 About T2S-Bench](#about-t2s-bench)
 - [📊 Datasets](#datasets)
-- [🚀  Quick Evaluation](#quick-evaluation)
+- [🚀 Quick Evaluation](#quick-evaluation)
 - [💪 Evaluation via lm-evaluation-harness](#evaluation-via-lm-evaluation-harness)
 - [📄 Citation](#citation)
 
 ---
 
-## About T2S-Bench
+## 🎯 About T2S-Bench
 T2S-Bench is a comprehensive benchmark for evaluating models' ability to extract structured representations from scientific text. It includes three curated components: T2S-Train-1.2k for training, T2S-Bench-MR (500 samples) for multi-hop reasoning, and T2S-Bench-E2E (87 samples) for end-to-end structuring. Covering 6 scientific domains, 17 subfields, and 32 structure types, T2S-Bench provides high-quality, structure-grounded samples drawn from peer-reviewed academic papers. Every sample underwent 6K+ model search, 6 rounds of validation, and 3 rounds of human review, ensuring correctness in structure, text, and reasoning logic.
 
 
@@ -45,7 +45,7 @@ T2S-Bench is a comprehensive benchmark for evaluating models' ability to extract
 
 ---
 
-## Datasets
+## 📊  Datasets
 
 T2S-Bench is organized into three subsets:
 
@@ -59,7 +59,7 @@ T2S-Bench is organized into three subsets:
 
 
 
-## Quick Evaluation
+## 🚀 Quick Evaluation
 
 Here we provide a simple and quick evaluation on T2S-Bench.
 
@@ -180,7 +180,7 @@ Results are written to `results/MR/<model>.json` and `results/E2E/<model>.json` 
 
 
 
-## Evaluation via lm-evaluation-harness
+## 💪 Evaluation via lm-evaluation-harness
 
 T2S-Bench is also supported through [EleutherAI's lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), allowing standardized evaluation of HuggingFace models using the `lm_eval` CLI.
 
@@ -268,7 +268,7 @@ For E2E structure evaluation, the output additionally includes `node_similarity`
 
 ---
 
-## Citation
+## 📄 Citation
 
 If you find **T2S-Bench** useful for your research and applications, please cite:
 
