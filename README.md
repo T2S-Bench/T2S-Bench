@@ -27,11 +27,11 @@ To bridge this gap, we present **T2S-Bench**, the first benchmark specifically d
 
 ## Outlines
 
-- [🎯 About T2S-Bench](#--about-t2s-bench)
+- [🎯 About T2S-Bench](#-about-t2s-bench)
 - [📊 Datasets](#-datasets)
-- [🚀 Quick Evaluation](#--quick-evaluation)
-- [💪 Evaluation via lm-evaluation-harness](#--evaluation-via-lm-evaluation-harness)
-- [📄 Citation](#--citation)
+- [🚀 Quick Evaluation](#-quick-evaluation)
+- [💪 Evaluation via lm-evaluation-harness](#-evaluation-via-lm-evaluation-harness)
+- [📄 Citation](#-citation)
 
 ---
 
@@ -45,7 +45,7 @@ T2S-Bench is a comprehensive benchmark for evaluating models' ability to extract
 
 ---
 
-## 📊  Datasets
+## 📊 Datasets
 
 T2S-Bench is organized into three subsets:
 
