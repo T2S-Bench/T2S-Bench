@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <h1>🎯 T2S-Bench &amp; Structure-of-Thought</h1>
+  <h1> <img src="assets/t2s_logo.png" style="height:1em;vertical-align:middle;"> T2S-Bench &amp; Structure-of-Thought</h1>
   <h3><b>Benchmarking Comprehensive Text-to-Structure Reasoning</b></h3>
 </div>
 
@@ -66,13 +66,12 @@ Here we provide a simple and quick evaluation on T2S-Bench.
 ### Step1. Setting Environment
 
 ```bash
+git clone https://github.com/T2S-Bench/T2S-Bench.git
+cd T2S-Bench
 conda create -n t2sbench python=3.10 -y
 conda activate t2sbench
 
-git clone ### 
-cd ###
-
-pip install -r requirements.txt ###
+pip install -e .
 ```
 
 
