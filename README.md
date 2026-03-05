@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-    🌐 <a href="https://t2s-bench.github.io/T2S-Bench-Page/" target="_blank">Project Page</a> • 📚 <a href="" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/T2SBench" target="_blank">T2S-Bench Dataset</a>
+    🌐 <a href="https://t2s-bench.github.io/T2S-Bench-Page/" target="_blank">Project Page</a> • 📚 <a href="https://arxiv.org/abs/2603.03790" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/T2SBench" target="_blank">T2S-Bench Dataset</a>
 </p>
 <p align="center">
     📊 <a href="https://t2s-bench.github.io/T2S-Bench-Page/#leaderboard" target="_blank">Leaderboard</a> • 🔮 <a href="https://t2s-bench.github.io/T2S-Bench-Page/#examples" target="_blank">Examples</a>
