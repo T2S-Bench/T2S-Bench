@@ -272,6 +272,13 @@ For E2E structure evaluation, the output additionally includes `node_similarity`
 If you find **T2S-Bench** useful for your research and applications, please cite:
 
 ```bibtex
-@inproceedings{
+@misc{wang2026t2sbenchstructureofthoughtbenchmarking,
+      title={T2S-Bench & Structure-of-Thought: Benchmarking and Prompting Comprehensive Text-to-Structure Reasoning}, 
+      author={Qinsi Wang and Hancheng Ye and Jinhee Kim and Jinghan Ke and Yifei Wang and Martin Kuo and Zishan Shao and Dongting Li and Yueqian Lin and Ting Jiang and Chiyue Wei and Qi Qian and Wei Wen and Helen Li and Yiran Chen},
+      year={2026},
+      eprint={2603.03790},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.03790}, 
 }
 ```
